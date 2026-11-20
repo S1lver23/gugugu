@@ -1,0 +1,166 @@
+/* 登入頁獨立排版，避免影響主頁與其他共用元件。 */
+body.login-page { padding-top: 0; }
+.login-page #login-overlay {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(40px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    gap: clamp(24px, 5vh, 40px);
+}
+.login-page .login-main-title {
+    max-width: 100%;
+    margin: 0;
+    font-size: clamp(1.65rem, 6vw, 5rem);
+    line-height: 1.35;
+    letter-spacing: clamp(1px, .4vw, 5px);
+    overflow-wrap: anywhere;
+    flex-shrink: 0;
+}
+.login-page .login-card {
+    display: block;
+    box-sizing: border-box;
+    width: min(100%, 462px);
+    min-width: 0;
+    padding: clamp(24px, 5vw, 40px);
+    flex-shrink: 0;
+}
+.login-page .login-title { font-size: clamp(1.6rem, 5vw, 2.2rem); }
+.login-page .login-input-group input { min-width: 0; min-height: 50px; }
+.login-page .login-submit-btn { box-sizing: border-box; min-height: 50px; }
+.login-page .links { flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.login-page .links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    gap: 4px;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+.login-page .error-msg { overflow-wrap: anywhere; }
+/* 主畫面模式使用一般繪製層，避免表單套用模糊與位移動畫。 */
+@media (display-mode: standalone) {
+    .login-page .login-card {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: #1a1c2a;
+        animation: none !important;
+        transform: none;
+    }
+    .login-page .login-main-title { animation: none; }
+}
+@media (max-width: 640px) {
+    .login-page .decoration { display: none; }
+    .login-page .login-input-group { margin-bottom: 18px; }
+    .login-page .links { justify-content: center; }
+    .login-page .links a { justify-content: center; text-align: center; }
+}
+@media (max-width: 380px) {
+    .login-page .links { flex-direction: column; }
+}
+@media (max-height: 540px) {
+    .login-page #login-overlay { justify-content: flex-start; gap: 20px; padding-top: 20px; }
+    .login-page .decoration { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .login-page .login-main-title, .login-page .login-card, .login-page .decoration { animation: none; }
+}
+
+/* 角色以自身輪廓對齊框邊，寬度固定為卡片的四分之一。 */
+.login-page .login-scene {
+    position: relative;
+    isolation: isolate;
+    flex-shrink: 0;
+    width: min(430px, calc((100vw - 24px) * .666667));
+    margin-top: 58px;
+    margin-bottom: 140px;
+}
+.login-page .login-scene .login-card {
+    width: 100%;
+    padding: 32px;
+    z-index: 1;
+    background: #1a1c2a;
+}
+.login-page .login-scene .decoration { display: none; }
+.login-page .login-mascots { pointer-events: none; user-select: none; }
+.login-page .login-mascot {
+    position: absolute;
+    z-index: 2;
+    width: 25%;
+    background-image: url('../assets/login-mascots-v2.png');
+    background-repeat: no-repeat;
+}
+.login-page .login-mascot--chick, .login-page .login-mascot--bull {
+    right: calc(100% - 6px);
+}
+.login-page .login-mascot--bear, .login-page .login-mascot--rabbit {
+    left: calc(100% - 6px);
+}
+.login-page .login-mascot--chick, .login-page .login-mascot--bear { top: 12%; }
+.login-page .login-mascot--bull, .login-page .login-mascot--rabbit { top: 55%; }
+/* 章魚正立懸掛，只有上勾的觸手搭住下框邊。 */
+.login-page .login-mascot--octopus {
+    top: calc(100% - 10px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login-page .login-mascot--chick { aspect-ratio: 312 / 513; background-size: 696.15384615% 141.13060429%; background-position: 2.63440860% 71.09004739%; }
+.login-page .login-mascot--bull { aspect-ratio: 375 / 636; background-size: 579.20000000% 113.83647799%; background-position: 23.31663884% 35.22727273%; }
+.login-page .login-mascot--bear { aspect-ratio: 357 / 600; background-size: 608.40336134% 120.66666667%; background-position: 49.64187328% 58.06451613%; }
+.login-page .login-mascot--rabbit { aspect-ratio: 361 / 646; background-size: 601.66204986% 112.07430341%; background-position: 72.50138045% 38.46153846%; }
+.login-page .login-mascot--octopus { background-image: url('../assets/login-octopus-hanging-v2.png'); aspect-ratio: 834 / 1036; background-size: 150.35971223% 121.04247104%; background-position: 41.90476190% 56.42201835%; }
+@media (max-width: 640px) {
+    .login-page .login-scene { margin-top: 32px; margin-bottom: 90px; }
+    .login-page .login-scene .login-card { padding: 22px 16px; }
+}
+@media (max-width: 640px) {
+    .login-page .links { flex-direction: column; gap: 4px; }
+    .login-page .links a { display: block; box-sizing: border-box; width: 100%; padding: 8px 0; line-height: 1.6; }
+    .login-page .links a b { white-space: nowrap; }
+}
+/* 側邊角色再等比例縮小 10%，讓視覺份量接近下方章魚。 */
+.login-page .login-mascot:not(.login-mascot--octopus) { width: 22.5%; }
+
+/* 美食、旅遊、航空霓虹點綴：獨立背景層，不攔截表單操作。 */
+.login-page .login-ambient { position: absolute; inset: 0; overflow: hidden; pointer-events: none; user-select: none; z-index: 0; }
+.login-page .login-main-title { position: relative; z-index: 1; }
+.login-page .login-scene { z-index: 1; }
+.login-page .login-neon {
+    position: absolute;
+    width: clamp(32px, 4.5vw, 70px);
+    height: auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    color: #20e4ef;
+    opacity: .3;
+    filter: drop-shadow(0 0 5px currentColor) drop-shadow(0 0 12px currentColor);
+    transform: rotate(var(--tilt, 0deg));
+    animation: login-neon-drift 9s ease-in-out infinite alternate;
+}
+.login-page .login-neon--plane { left: 12%; top: 22%; --tilt: -15deg; }
+.login-page .login-neon--food { right: 12%; top: 28%; color: #ffb75e; --tilt: 12deg; animation-delay: -3s; }
+.login-page .login-neon--compass { left: 7%; top: 56%; color: #b294ff; --tilt: -18deg; animation-delay: -5s; }
+.login-page .login-neon--coffee { left: 20%; top: 82%; color: #ff85cf; --tilt: -12deg; animation-delay: -2s; }
+.login-page .login-neon--luggage { right: 8%; top: 66%; color: #b294ff; --tilt: 15deg; animation-delay: -6s; }
+.login-page .login-neon--flight { right: 22%; top: 88%; --tilt: 25deg; animation-delay: -4s; }
+@keyframes login-neon-drift {
+    from { transform: translateY(0) rotate(var(--tilt, 0deg)); }
+    to { transform: translateY(-8px) rotate(var(--tilt, 0deg)); }
+}
+@media (max-width: 640px) {
+    .login-page .login-neon { width: 30px; opacity: .2; }
+    .login-page .login-neon--plane { left: 7%; top: 4%; }
+    .login-page .login-neon--food { right: 8%; top: 5%; }
+    .login-page .login-neon--compass { left: 1%; top: 45%; }
+    .login-page .login-neon--luggage { right: 1%; top: 43%; }
+    .login-page .login-neon--coffee { left: 11%; top: 88%; }
+    .login-page .login-neon--flight { right: 11%; top: 90%; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .login-page .login-neon { animation: none; }
+}

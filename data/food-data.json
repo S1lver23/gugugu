@@ -1,0 +1,86 @@
+[
+  {
+    "name": "王品集團",
+    "symbol": "2727.TW",
+    "description": "台灣餐飲集團，旗下有多個餐飲品牌並布局海內外市場。",
+    "image": "https://mkp.taishinbank.com.tw/tscccms/campaignPromotions/upload/2024/WM_20240110183548122/WM_20240110183548122_list_image.jpg",
+    "links": {
+      "guide": "https://www.wowprime.com/",
+      "news": "https://www.google.com/search?q=2727+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2727.TW"
+    }
+  },
+  {
+    "name": "美食-KY",
+    "symbol": "2723.TW",
+    "description": "以烘焙與餐飲連鎖為主的公司，業務遍及亞洲與海外市場。",
+    "image": "https://images.deliveryhero.io/image/fd-hk/hk-logos/ci8gf-logo.jpg",
+    "links": {
+      "guide": "https://www.85cafe.com/",
+      "news": "https://www.google.com/search?q=2723+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2723.TW"
+    }
+  },
+  {
+    "name": "八方雲集",
+    "symbol": "2753.TW",
+    "description": "以麵食、水餃與平價餐飲品牌為主的速食餐飲公司。",
+    "image": "https://msn.sgs.com/comimage/VIP_img/Logo/70472679.jpg",
+    "links": {
+      "guide": "https://www.8way.com.tw/",
+      "news": "https://www.google.com/search?q=2753+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2753.TW"
+    }
+  },
+  {
+    "name": "瓦城",
+    "symbol": "2729.TW",
+    "description": "經營多品牌餐飲服務，涵蓋中式與創新料理。",
+    "image": "https://whityeat.com/wp-content/uploads/20210525031823_60.png",
+    "links": {
+      "guide": "https://www.ttfb.com/",
+      "news": "https://www.google.com/search?q=2729+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2729.TWO"
+    }
+  },
+  {
+    "name": "三商餐飲",
+    "symbol": "7705.TW",
+    "description": "以品牌零售與加盟通路為主的餐飲服務公司。",
+    "image": "https://buy-obs.line-scdn.net/0hpQ_zqqbWL35iAzqQA31QKUJXIx4dLTR8Cz0wBhlbJCBPNG8gVmFhHEYHck9ONG4qXGBoGEBRdhlNNGkoG2VhSkMLc05H",
+    "links": {
+      "guide": "https://www.mfb.com.tw/",
+      "news": "https://www.google.com/search?q=7705+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/7705.TW"
+    }
+  },
+  {
+    "name": "全家餐飲",
+    "symbol": "7708.TW",
+    "description": "以規模化經營與供應鏈管理為核心的餐飲公司。",
+    "image": "https://images.1111.com.tw/oad/50037294.jpg?etag=9fc8f6547b5d91:0",
+    "links": {
+      "guide": "https://www.familygourmet.com.tw/",
+      "news": "https://www.google.com/search?q=7708+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/7708.TWO"
+    }
+  },
+  {
+    "name": "漢來美食",
+    "symbol": "1268.TW",
+    "description": "涵蓋宴會、飯店與餐飲服務的綜合餐旅事業。",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.4PERZfbTh96MFnatp7yAIAHaHa?pid=Api&P=0&h=180",
+    "links": {
+      "guide": "https://www.hilai-foods.com.tw/",
+      "news": "https://www.google.com/search?q=1268+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/1268.TWO"
+    }
+  }
+]

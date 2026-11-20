@@ -1,0 +1,50 @@
+[
+  {
+    "name": "長榮航",
+    "symbol": "2618.TW",
+    "description": "兼具客運與貨運網絡的國際全服務航空公司。",
+    "image": "https://www.newton.com.tw/img/5/453/cGcq5SZ1IzM2EDMkZjNyUDZmJmYmZGO2QmYiZWYkFTN0MGZkVmNkFWNkFWMv0WZ0l2LjlGcvU2apFmYv02bj5SdklWYi5yYyN3Ztl2LvoDc0RHa.jpg",
+    "links": {
+      "guide": "https://www.evaair.com/zh-tw/",
+      "news": "https://www.google.com/search?q=2618+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2618.TW"
+    }
+  },
+  {
+    "name": "華航",
+    "symbol": "2610.TW",
+    "description": "營運區域線與長程線的國籍航空公司。",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.4TlLAZ7RxKbft5TwWoPjUAAAAA?pid=Api&P=0&h=180",
+    "links": {
+      "guide": "https://www.china-airlines.com/tw/zh/",
+      "news": "https://www.google.com/search?q=2610+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2610.TW"
+    }
+  },
+  {
+    "name": "星宇航空",
+    "symbol": "2646.TW",
+    "description": "以航網擴張與服務品質為重點的高端航空公司。",
+    "image": "https://www.3wen.com/shoang/allimg/starlux-02.jpg",
+    "links": {
+      "guide": "https://www.starlux-airlines.com/zh-TW",
+      "news": "https://www.google.com/search?q=2646+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2646.TW"
+    }
+  },
+  {
+    "name": "台灣虎航",
+    "symbol": "6757.TW",
+    "description": "以短程航線與彈性票價為主的低成本航空公司。",
+    "image": "https://buy-obs.line-scdn.net/0hatpWt_VlPltNLiw5-QlBDG16MjsyACVZJBAhIzZ2NQVgGX8EcEB2O2wtYGhgF3APeEpxO2stNGtiH3wNNEhxOGh6YWxh",
+    "links": {
+      "guide": "https://www.tigerairtw.com/?language=zh-TW",
+      "news": "https://www.google.com/search?q=6757+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/6757.TW"
+    }
+  }
+]

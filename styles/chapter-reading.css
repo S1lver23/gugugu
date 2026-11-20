@@ -1,0 +1,15 @@
+/* 漫畫優先呈現，完整解說由讀者自行展開。 */
+.chapter-wrap { box-sizing: border-box; width: min(1028px, calc(100% - 32px)); }
+.chapter-wrap h1 { font-size: clamp(1.35rem, 3.2vw, 2rem); overflow-wrap: anywhere; }
+.chapter-intro { margin: 12px 0 20px; color: #b9c6da; }
+.chapter-wrap .chapter-illustration { margin: 20px 0; }
+.chapter-notes { margin: 24px 0 8px; border: 1px solid #354766; border-radius: 12px; background: #10182b; }
+.chapter-notes summary { padding: 14px 18px; cursor: pointer; color: #baf7f2; font-weight: 700; min-height: 24px; }
+.chapter-notes summary:focus-visible { outline: 2px solid #00f2ea; outline-offset: 3px; border-radius: 8px; }
+.chapter-notes[open] summary { border-bottom: 1px solid #354766; }
+.chapter-notes-body { padding: 4px 18px 18px; }
+.chapter-notes-body p { color: #c4d1e5; }
+@media (max-width: 600px) {
+  .chapter-wrap { padding: 18px; margin-top: 24px; }
+  .chapter-wrap .chapter-illustration { padding: 4px; }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "晶華",
+    "symbol": "2707.TW",
+    "description": "台灣高端商務與觀光飯店經營者，主打精緻服務定位。",
+    "image": "https://www.americanexpress.com/content/dam/amex/zh-tw/benefits/annual/rcp-platinum/images/hotel-one-night/regent_logo1n.jpg",
+    "links": {
+      "guide": "https://www.silkshotelgroup.com/tw/",
+      "news": "https://www.google.com/search?q=2707+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2707.TW"
+    }
+  },
+  {
+    "name": "六福",
+    "symbol": "2705.TW",
+    "description": "涵蓋飯店、度假與親子娛樂的休閒旅遊企業。",
+    "image": "https://yt3.ggpht.com/ytc/AKedOLTSQwezuvP0lReGMU1-JeICrRUm9JAuGTO-uqyCgw=s900-c-k-c0x00ffffff-no-rj",
+    "links": {
+      "guide": "https://www.leofoo.com.tw/",
+      "news": "https://www.google.com/search?q=2705+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2705.TW"
+    }
+  },
+  {
+    "name": "鳳凰",
+    "symbol": "5706.TW",
+    "description": "以出境旅遊與套裝行程為主的旅行社服務公司。",
+    "image": "assets/brands/phoenix-official.png",
+    "links": {
+      "guide": "https://www.phoenix.com.tw/",
+      "news": "https://www.google.com/search?q=5706+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/5706.TW"
+    }
+  },
+  {
+    "name": "雄獅",
+    "symbol": "2731.TW",
+    "description": "整合套裝旅遊、票務與客製化行程的旅遊平台。",
+    "image": "https://www.sas.com/zh_tw/customers/2015-LionTravel/_jcr_content/par02/image_6a85.img.jpg/1457728610683.jpg",
+    "links": {
+      "guide": "https://www.liontravel.com/category/zh-tw/index",
+      "news": "https://www.google.com/search?q=2731+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2731.TW"
+    }
+  },
+  {
+    "name": "劍湖山",
+    "symbol": "5701.TW",
+    "description": "以主題樂園與度假設施為核心，營收具季節性波動。",
+    "image": "assets/brands/janfusun-official.svg",
+    "links": {
+      "guide": "https://www.janfusun.com.tw/fancyworld.php",
+      "news": "https://www.google.com/search?q=5701+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/5701.TWO"
+    }
+  },
+  {
+    "name": "遠雄來",
+    "symbol": "2712.TW",
+    "description": "飯店與度假業務並行，具國內旅遊與會議需求收入來源。",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.77pJ5my5KDYeN0TqWFICIwHaHa?pid=Api&P=0&h=180",
+    "links": {
+      "guide": "https://www.farglory-hotel.com.tw/investors/investor-relations/",
+      "news": "https://www.google.com/search?q=2712+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2712.TW"
+    }
+  },
+  {
+    "name": "夏都",
+    "symbol": "2722.TW",
+    "description": "以度假與溫泉型旅宿服務為主的飯店業者。",
+    "image": "https://ddwgnufeodrv4.cloudfront.net/10004839/20230628/1687943105941_plus1.jpg",
+    "links": {
+      "guide": "https://chateau-hotels.com.tw/",
+      "news": "https://www.google.com/search?q=2722+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2722.TW"
+    }
+  },
+  {
+    "name": "雲品",
+    "symbol": "2748.TW",
+    "description": "主打高端湖畔與養生旅宿產品的度假飯店品牌。",
+    "image": "http://www.easytravel.com.tw/ehotel/hotelimg/himg/7327_logo.jpg",
+    "links": {
+      "guide": "https://www.fdc-i.com/",
+      "news": "https://www.google.com/search?q=2748+股市新聞",
+      "exhibition": "#",
+      "stock": "https://tw.stock.yahoo.com/quote/2748.TW"
+    }
+  }
+]

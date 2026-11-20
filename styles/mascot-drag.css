@@ -1,0 +1,29 @@
+#mascot-helper {
+  cursor: grab !important;
+  animation: none;
+  transition: none;
+  transform: none;
+  filter: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#mascot-helper:hover { transform: none; }
+#mascot-helper.is-dragging { cursor: grabbing !important; }
+#mascot-helper > img {
+  touch-action: none;
+  -webkit-user-drag: none;
+  filter: drop-shadow(0 0 10px rgba(0,0,0,.5));
+}
+#mascot-helper .chat-bubble {
+  position: fixed;
+  box-sizing: border-box;
+  width: min(364px, calc(100vw - 24px));
+  right: auto;
+  bottom: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+}
+#mascot-helper .chat-bubble::after { display: none; }
+@media (max-width: 768px) {
+  #mascot-helper { width: 112px; }
+}
